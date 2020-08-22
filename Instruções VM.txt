@@ -1,0 +1,13 @@
+O serviço todo se inicializará automaticamente ao logar com qualquer usuário.
+ - Para acessar a página de configurações navegue para http://localhost:8000/configuratio 	n;
+ - Para verificar o banco de dados aperte o botao do Windows e digite "pgadmin", irá aparecer o aplicativo "PgAdmin 4", execute-o e aguarde a inicialização, uma página no browser será aberta;
+
+Para ativar o uso do e-mail de testes, abra o arquivo "C:\buying-order-server\appsettings.json" e altere a opção "UseTestRecipient" para "true" (sem áspas).
+
+Para verificar os e-mails teste, acesse https://ethereal.email/login e informe os campos "Email address" = viola.von@ethereal.email, Password = Q61Z2qsRsmg7nUEzNG. Após estar logado, acesse o menu "Messages", ali estarão todos os e-mails enviados pela ferramenta.
+
+Para inicializar a solução manualmente, execute o script "C:\start-buying-order.bat" e aguarde até a conclusão, a página de gerenciamento será aberta automáticamente. Para navegar manualmente para a página de gerenciamento, acesse o endereço "http://localhost:8000/configuration".
+
+
+
+
